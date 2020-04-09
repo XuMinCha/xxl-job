@@ -43,14 +43,14 @@ XXL-JOB是一个轻量级分布式任务调度平台，其核心设计目标是�
 ## Documentation
 - [中文文档](http://www.xuxueli.com/xxl-job/)
 - [English Documentation](http://www.xuxueli.com/xxl-job/en/)
-
+<p align="center" style="color:blue">
 基于2.0版本新加功能：
 
 - 1、新加任务执行线程池，替换JobThread,减少线程创建销毁带来的开销
 - 2、新增注解@MultiplexJobHandler和@JobMethod，支持方法级别任务，类似spring的@scheduled
               使用方式见CompositeJobHandler
 - 3、新增job.log日志文件，记录日内执行的所有任务log
-
+</p>
 
 ## Features
 - 1、简单：支持通过Web页面对任务进行CRUD操作，操作简单，一分钟上手；
